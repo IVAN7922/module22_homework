@@ -1,0 +1,12 @@
+button {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin: 25px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.btn-icon {
+    margin-left: 6px;
+}

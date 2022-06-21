@@ -1,0 +1,61 @@
+.frame {
+    border: 2px solid blueviolet;
+    width: 620px;
+    height: 440px;
+    margin: 25px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.control-block {
+    margin-bottom: 5px;
+}
+
+button,
+input {
+    border: 2px solid blueviolet;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+input {
+    width: 417px;
+}
+
+.msg-block {
+    border: 2px solid blueviolet;
+    height: 409px;
+    padding: 0 40px;
+    background-color: blanchedalmond;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.msg-block a {
+    text-decoration: none;
+    color: blue;
+    font-family: Georgia, Times, 'Times New Roman', sans-serif;
+    font-style: italic;
+}
+
+.msg-block>div {
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.msg-block .inputMessage {
+    align-self: flex-end;
+    background-color: goldenrod;
+    color: blue;
+}
+
+.msg-block .outputMessage {
+    align-self: flex-start;
+    background-color: burlywood;
+    font-style: italic;
+}
